@@ -1,0 +1,232 @@
+html, body {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background: #151C26 url('../img/bg.jpg') top center no-repeat;
+	color: #a5bbca;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#parentContainer {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#logoContainer {
+	position: absolute;
+	left: 0;
+	top: 60px;
+}
+
+#navContainer {
+	position: absolute;
+	top: 112px;
+	left: 410px;
+
+	height: 41px;
+
+	list-style: none;
+}
+
+#navContainer li {
+	display: inline;
+	height: 41px;
+}
+#navContainer li a {
+	background-image: url('../img/nav-sprite.png');
+	display: block;
+	float: left;
+	height: 41px;
+	margin-right: 50px;
+}
+
+#navContainer li a span {
+	display: none;
+}
+
+#navContainer li a.bio {
+	background-position: 0 41px;
+	width: 71px;
+}
+
+#navContainer li a.bio:hover {
+	background-position: 0 0;
+}
+
+#navContainer li a.bio.active {
+	background-position: 0 0;
+}
+
+#navContainer li a.projects {
+	background-position: -71px 41px;
+	width: 93px;
+}
+
+#navContainer li a.projects:hover {
+	background-position: -71px 0;
+}
+
+#navContainer li a.projects.active {
+	background-position: -71px 0;
+}
+
+#navContainer li a.contact {
+	background-position: -164px 41px;
+	width: 93px;
+}
+
+#navContainer li a.contact:hover {
+	background-position: -164px 0;
+}
+
+#navContainer li a.contact.active {
+	background-position: -164px 0;
+}
+
+#navContainer li a.cv {
+	background-position: -257px 41px;
+	width: 71px;
+}
+
+#navContainer li a.cv:hover {
+	background-position: -257px 0;
+}
+
+#navContainer li a.cv.active {
+	background-position: -257px 0;
+}
+
+#contentContainer {
+	padding: 250px 100px 0 218px;
+}
+
+#contentContainer div.divider {
+	height: 25px;
+}
+
+#contentContainer ul.list {
+	margin-top: -10px;
+	margin-left: 40px;
+	font-size: 18px;
+	list-style: circle;
+	margin-bottom: 25px;
+}
+
+#contentContainer ul.list li {
+	margin-bottom: 10px;
+}
+
+#contentContainer .education {
+    padding: 5px 5px 0;
+    margin-bottom: 25px;
+}
+
+#contentContainer .education td {
+    padding: 2px 5px;
+}
+
+#contentContainer .education th {
+    padding: 2px 5px;
+    text-align: left;
+    font-style: italic;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+span {
+	font-size: 14px;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 25px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a {
+	color: #7a8c99;
+}
+
+a:hover {
+	color: #404950;
+}
+
+form div ul {
+ 	list-style: none;
+	margin-bottom: 20px;
+    color: #c53c44;
+}
+
+form div div ul {
+	margin-left: 60px;
+    margin-bottom: -16px;
+}
+
+form div {
+    margin-top: 10px;
+ 	position: relative;
+}
+
+form label {
+	position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+}
+
+form input {
+ 	width: 310px;
+    height: 37px;
+}
+
+form input.submit {
+ 	width: 80px;
+    cursor: pointer;
+}
+
+form input.submit:hover {
+    color: #b8d1e1;
+}
+
+form input, form textarea {
+    padding: 0 10px;
+    font-size: 16px;
+    color: #A5BBCA;
+    background: #202c38;
+    border: 2px solid #3d4653;
+    margin-top: 20px;
+    -moz-border-radius-topright: 10px;
+    -khtml-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -khtml-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -khtml-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -khtml-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+
+form textarea {
+ 	width: 350px;
+    height: 100px;
+    padding: 10px;
+    max-width: 700px;
+}

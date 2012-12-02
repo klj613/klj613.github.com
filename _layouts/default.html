@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> {% if page.title %} {{ page.title }} | {% endif %} Kristian Lewis Jones </title>
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
+    <body>
+        <div id="parentContainer">
+            <div id="logoContainer">
+                <img src="/img/logo.png" alt="" />
+            </div>
+
+            <ul id="navContainer">
+                <li><a href="/" class="bio"></a></li>
+                <li><a href="/projects.html" class="projects"></a></li>
+                <li><a href="/contact.html" class="contact"></a></li>
+                <li><a href="/curriculum-vitae.html" class="cv"></a></li>
+            </ul>
+
+            <div id="contentContainer">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
+
