@@ -21,67 +21,6 @@ body {
 	top: 60px;
 }
 
-#navContainer {
-	position: absolute;
-	top: 112px;
-	left: 410px;
-	height: 41px;
-	list-style: none;
-}
-
-#navContainer li {
-	display: inline;
-	height: 41px;
-}
-
-#navContainer li a {
-	background-image: url('../img/nav-sprite.png');
-	display: block;
-	float: left;
-	height: 41px;
-	margin-right: 50px;
-}
-
-#navContainer li a span {
-	display: none;
-}
-
-#navContainer li a.bio {
-	background-position: 0 41px;
-	width: 71px;
-}
-
-#navContainer li a.bio:hover {
-	background-position: 0 0;
-}
-
-#navContainer li a.projects {
-	background-position: -71px 41px;
-	width: 93px;
-}
-
-#navContainer li a.projects:hover {
-	background-position: -71px 0;
-}
-
-#navContainer li a.contact {
-	background-position: -164px 41px;
-	width: 93px;
-}
-
-#navContainer li a.contact:hover {
-	background-position: -164px 0;
-}
-
-#navContainer li a.cv {
-	background-position: -257px 41px;
-	width: 71px;
-}
-
-#navContainer li a.cv:hover {
-	background-position: -257px 0;
-}
-
 #contentContainer {
 	padding: 250px 100px 0 218px;
 }
@@ -89,4 +28,64 @@ body {
 p {
 	font-size: 18px;
 	margin-bottom: 25px;
+}
+
+#navContainer {
+	position: absolute;
+	top: 112px;
+	left: 410px;
+	height: 41px;
+	list-style: none;
+
+    li {
+        display: inline;
+        height: 41px;
+
+        a {
+            background-image: url('../img/nav-sprite.png');
+            display: block;
+            float: left;
+            height: 41px;
+            margin-right: 50px;
+            span {
+                display: none;
+            }
+        }
+
+        a.bio {
+            background-position: 0 41px;
+            width: 71px;
+        }
+
+        a.bio:hover {
+            background-position: 0 0;
+        }
+
+        a.projects {
+            background-position: -71px 41px;
+            width: 93px;
+        }
+
+        a.projects:hover {
+            background-position: -71px 0;
+        }
+
+        a.contact {
+            background-position: -164px 41px;
+            width: 93px;
+        }
+
+        a.contact:hover {
+            background-position: -164px 0;
+        }
+
+        a.cv {
+            background-position: -257px 41px;
+            width: 71px;
+        }
+
+        a.cv:hover {
+            background-position: -257px 0;
+        }
+    }
 }
