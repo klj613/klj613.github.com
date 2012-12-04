@@ -1,3 +1,8 @@
 @import "compass/css3";
+
+$break-tiny: 320px;
+$break-small: 640px;
+$break-large: 1000px;
+
 @import "normalize";
 @import "common";
