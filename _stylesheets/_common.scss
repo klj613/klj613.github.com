@@ -42,50 +42,19 @@ p {
         height: 41px;
 
         a {
-            background-image: url('../img/nav-sprite.png');
             display: block;
             float: left;
-            height: 41px;
             margin-right: 50px;
-            span {
-                display: none;
-            }
+            font-family: Impact, Charcoal, sans-serif;
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 5px 10px;
         }
 
-        a.bio {
-            background-position: 0 41px;
-            width: 71px;
-        }
-
-        a.bio:hover {
-            background-position: 0 0;
-        }
-
-        a.projects {
-            background-position: -71px 41px;
-            width: 93px;
-        }
-
-        a.projects:hover {
-            background-position: -71px 0;
-        }
-
-        a.contact {
-            background-position: -164px 41px;
-            width: 93px;
-        }
-
-        a.contact:hover {
-            background-position: -164px 0;
-        }
-
-        a.cv {
-            background-position: -257px 41px;
-            width: 71px;
-        }
-
-        a.cv:hover {
-            background-position: -257px 0;
+        a:hover {
+            @include border-radius(10px);
+            background: rgba(0, 0, 0, 0.5);
         }
     }
 }
