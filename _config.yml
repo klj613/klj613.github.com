@@ -1,1 +1,1 @@
-exclude: Gemfile*, Rakefile, config.rb
+exclude: Gemfile*, Gemfile.lock, Rakefile, config.rb
